@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+{% block content %}
+    <h1>{{value|safe}}</h1>
+    <a href = https://en.wikipedia.org/wiki/{{value|safe}}>Link for more Information</a>
+<style>
+body {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVJHhrKUHKVzIiVbko42PZNdD4ZL3-oxoLWw&usqp=CAU');
+}
+</style>
+
+{% endblock content %}

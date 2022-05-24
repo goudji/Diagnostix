@@ -1,0 +1,311 @@
+{% extends "layout.html" %}
+{% block content %}
+   <style>
+      .newspaper {
+          -webkit-column-count: 11; /* Chrome, Safari, Opera */
+          -moz-column-count: 11; /* Firefox */
+          column-count: 4;
+      }
+
+      input[type=button], input[type=submit], input[type=reset] {
+        background-color: light-gray;
+        border: none;
+        color: black;
+        padding: 16px 32px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+      body {
+      background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVJHhrKUHKVzIiVbko42PZNdD4ZL3-oxoLWw&usqp=CAU');
+      }
+
+    </style>
+    <title>Check Symptoms</title>
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <h1>Symptoms</h1>
+     <p> Please Choose the Symptoms that you have experienced</p>
+   
+    <div class="newspaper">
+      <form action="" method="post" name="s">
+        <input type="checkbox" id="1" name="s" value="40">
+        <label for="1"> abdominal pain </label><br>
+        <input type="checkbox" id="2" name="s" value="102">
+        <label for="2"> abnormal menstruation </label><br>
+        <input type="checkbox" id="s3" name="s" value="9">
+        <label for="s3"> acidity </label><br>
+        <input type="checkbox" id="s4" name="s" value="45">
+        <label for="s4"> acute liver failure </label><br>
+        <input type="checkbox" id="s5" name="s" value="99">
+        <label for="s5"> altered sensorium </label><br>
+        <input type="checkbox" id="s6" name="s" value="17">
+        <label for="s6"> anxiety </label><br>
+        <input type="checkbox" id="s7" name="s" value="38">
+        <label for="s7"> back pain </label><br>
+        <input type="checkbox" id="s8" name="s" value="101">
+        <label for="s8"> belly pain </label><br>
+        <input type="checkbox" id="s9" name="s" value="4">
+        <label for="s9"> blackheads </label><br>
+        <input type="checkbox" id="s10" name="s" value="90">
+        <label for="s10"> bladder discomfort </label><br>
+        <input type="checkbox" id="s11" name="s" value="130">
+        <label for="s11"> blister </label><br>
+
+        <input type="checkbox" id="s12" name="s" value="119">
+        <label for="s12"> blood in sputum </label><br>
+        <input type="checkbox" id="s2" name="s" value="62">
+        <label for="s2"> bloody stool </label><br>
+        <input type="checkbox" id="s3" name="s" value="50">
+        <label for="s3"> blurred and distorted vision </label><br>
+        <input type="checkbox" id="s4" name="s" value="28">
+        <label for="s4"> breathlessness </label><br>
+        <input type="checkbox" id="s5" name="s" value="73">
+        <label for="s5"> brittle nails </label><br>
+        <input type="checkbox" id="s6" name="s" value="67">
+        <label for="s6"> bruising </label><br>
+        <input type="checkbox" id="s7" name="s" value="13">
+        <label for="s7"> burning micturition </label><br>
+        <input type="checkbox" id="s8" name="s" value="57">
+        <label for="s8"> chest pain </label><br>
+        <input type="checkbox" id="s9" name="s" value="6>
+        <label for="s9"> chills </label><br>
+        <input type="checkbox" id="s10" name="s" value="18">
+        <label for="s10"> cold hands and feets </label><br>
+        <input type="checkbox" id="s11" name="s1" value="114">
+        <label for="s11"> coma </label><br>
+
+        <input type="checkbox" id="s1" name="s" value="56">
+        <label for="s1"> congestion </label><br>
+        <input type="checkbox" id="s2" name="s" value="39">
+        <label for="s2"> constipation </label><br>
+        <input type="checkbox" id="s3" name="s" value="92">
+        <label for="s3"> continuous feel of urine </label><br>
+        <input type="checkbox" id="s4" name="s" value="4">
+        <label for="s4"> continuous sneezing </label><br>
+        <input type="checkbox" id="s5" name="s" value="25">
+        <label for="s5"> cough </label><br>
+        <input type="checkbox" id="s6" name="s" value="66">
+        <label for="s6"> cramps </label><br>
+        <input type="checkbox" id="s7" name="s" value="34">
+        <label for="s7"> dark urine </label><br>
+        <input type="checkbox" id="s8" name="s" value="30">
+        <label for="s8"> dehydration </label><br>
+        <input type="checkbox" id="s9" name="s" value="96">
+        <label for="s9"> depression </label><br>
+        <input type="checkbox" id="s10" name="s" value="41">
+        <label for="s10"> diarrhoea </label><br>
+        <input type="checkbox" id="s11" name="s" value="103">
+        <label for="s11"> dischromic patches </label><br>
+
+        <input type="checkbox" id="s1" name="s" value="116">
+        <label for="s1"> distention of abdomen </label><br>
+        <input type="checkbox" id="s2" name="s" value="65">
+        <label for="s2"> dizziness </label><br>
+        <input type="checkbox" id="s3" name="s" value="77">
+        <label for="s3"> drying and tingling lips </label><br>
+        <input type="checkbox" id="s4" name="s" value="72">
+        <label for="s4"> enlarged thyroid </label><br>
+        <input type="checkbox" id="s5" name="s" value="75">
+        <label for="s5"> excessive hunger </label><br>
+        <input type="checkbox" id="s6" name="s" value="76">
+        <label for="s6"> extra marital contacts </label><br>
+        <input type="checkbox" id="s7" name="s" value="107">
+        <label for="s7"> family history </label><br>
+        <input type="checkbox" id="s8" name="s" value="59">
+        <label for="s8"> fast heart rate </label><br>
+        <input type="checkbox" id="s9" name="s" value="15">
+        <label for="s9"> fatigue </label><br>
+        <input type="checkbox" id="s10" name="s" value="46">
+        <label for="s10"> fluid overload </label><br>
+        <input type="checkbox" id="s11" name="s" value="118">
+        <label for="s11"> fluid overload </label><br>
+
+        <input type="checkbox" id="s11" name="s" value="91">
+        <label for="s11"> foul smell of urine </label><br>
+        <input type="checkbox" id="s1" name="s" value="32">
+        <label for="s1"> headache </label><br>
+        <input type="checkbox" id="s2" name="s" value="26">
+        <label for="s2"> high fever </label><br>
+        <input type="checkbox" id="s3" name="s" value="80">
+        <label for="s3"> hip joint pain </label><br>
+        <input type="checkbox" id="s4" name="s" value="117">
+        <label for="s4"> history of alcohol consumption </label><br>
+        <input type="checkbox" id="s5" name="s" value="105">
+        <label for="s5"> increased appetite </label><br>
+        <input type="checkbox" id="s6" name="s" value="31">
+        <label for="s6"> indigestion </label><br>
+        <input type="checkbox" id="s7" name="s" value="129">
+        <label for="s7"> inflammatory nails </label><br>
+        <input type="checkbox" id="s8" name="s" value="94">
+        <label for="s8"> internal itching </label><br>
+        <input type="checkbox" id="s9" name="s" value="24">
+        <label for="s9"> irregular sugar level </label><br>
+        <input type="checkbox" id="s10" name="s" value="97">
+        <label for="s10"> irritability </label><br>
+        
+        <input type="checkbox" id="s11" name="s" value="63">
+        <label for="s11"> irritation in anus </label><br>
+        <input type="checkbox" id="s1" name="s" value="1">
+        <label for="s1"> itching </label><br>
+        <input type="checkbox" id="s2" name="s" value="7">
+        <label for="s2"> joint pain </label><br>
+        <input type="checkbox" id="s3" name="s" value="79">
+        <label for="s3"> knee pain </label><br>
+        <input type="checkbox" id="s4" name="s" value="110">
+        <label for="s4"> lack of concentration </label><br>
+        <input type="checkbox" id="s5" name="s" value="22">
+        <label for="s5"> lethargy </label><br>
+        <input type="checkbox" id="s6" name="s" value="36">
+        <label for="s6"> loss of appetite </label><br>
+        <input type="checkbox" id="s7" name="s" value="86">
+        <label for="s7"> loss of balance </label><br>
+        <input type="checkbox" id="s8" name="s" value="89">
+        <label for="s8"> loss of smell </label><br>
+        <input type="checkbox" id="s9" name="s" value="49">
+        <label for="s9"> malaise </label><br>
+        <input type="checkbox" id="s10" name="s" value="42">
+        <label for="s10"> mild fever </label><br>
+        
+        <input type="checkbox" id="s11" name="s" value="19">
+        <label for="s11"> mood swings </label><br>
+        <input type="checkbox" id="s1" name="s" value="84">
+        <label for="s1"> movement stiffness </label><br>
+        <input type="checkbox" id="s2" name="s" value="108">
+        <label for="s2"> mucoid sputum </label><br>
+        <input type="checkbox" id="s3" name="s" value="98">
+        <label for="s3"> muscle pain </label><br>
+        <input type="checkbox" id="s4" name="s" value="11">
+        <label for="s4"> muscle wasting </label><br>
+        <input type="checkbox" id="s5" name="s" value="81">
+        <label for="s5"> muscle weakness </label><br>
+        <input type="checkbox" id="s6" name="s" value="35">
+        <label for="s6"> nausea </label><br>
+        <input type="checkbox" id="s7" name="s" value="64">
+        <label for="s7"> neck pain </label><br>
+        <input type="checkbox" id="s8" name="s" value="3">
+        <label for="s8"> nodal skin eruptions </label><br>
+        <input type="checkbox" id="s9" name="s" value="68">
+        <label for="s9"> obesity </label><br>
+        <input type="checkbox" id="s10" name="s" value="37">
+        <label for="s10"> pain behind the eyes </label><br>
+       
+        <input type="checkbox" id="s11" name="s" value="60">
+        <label for="s11"> pain during bowel movements </label><br>  
+        <input type="checkbox" id="s1" name="s" value="61">
+        <label for="s1"> pain in anal region </label><br>
+        <input type="checkbox" id="s2" name="s" value="122">
+        <label for="s2"> painful walking </label><br>
+        <input type="checkbox" id="s3" name="s" value="121">
+        <label for="s3"> palpitations </label><br>
+        <input type="checkbox" id="s4" name="s" value="93">
+        <label for="s4"> passage of gases </label><br>
+        <input type="checkbox" id="s5" name="s" value="23">
+        <label for="s5"> patches in throat </label><br>
+        <input type="checkbox" id="s6" name="s" value="51">
+        <label for="s6"> phlegm </label><br>
+        <input type="checkbox" id="s7" name="s" value="106">
+        <label for="s7"> polyuria </label><br>
+        <input type="checkbox" id="s8" name="s" value="120">
+        <label for="s8"> prominent veins on calf </label><br>
+        <input type="checkbox" id="s9" name="s" value="71">
+        <label for="s9"> puffy face and eyes </label><br>
+        <input type="checkbox" id="s10" name="s" value="123">
+        <label for="s10"> pus filled pimples </label><br>        
+
+        <input type="checkbox" id="s11" name="s" value="112">
+        <label for="s11"> receiving blood transfusion </label><br>      
+        <input type="checkbox" id="s1" name="s" value="113">
+        <label for="s1"> receiving unsterile injections </label><br>
+        <input type="checkbox" id="s2" name="s" value="131">
+        <label for="s2"> red sore around nose </label><br>
+        <input type="checkbox" id="s3" name="s" value="100">
+        <label for="s3"> red spots over body </label><br>
+        <input type="checkbox" id="s4" name="s" value="53">
+        <label for="s4"> redness of eyes </label><br>
+        <input type="checkbox" id="s5" name="s" value="21">
+        <label for="s5"> restlessness </label><br>
+        <input type="checkbox" id="s6" name="s" value="55">
+        <label for="s6"> runny nose </label><br>
+        <input type="checkbox" id="s7" name="s" value="109">
+        <label for="s7"> rusty sputum </label><br>
+        <input type="checkbox" id="s8" name="s" value="125">
+        <label for="s8"> scurring </label><br>
+        <input type="checkbox" id="s9" name="s" value="5">
+        <label for="s9"> shivering </label><br>
+        <input type="checkbox" id="s10" name="s" value="127">
+        <label for="s10"> silver like dusting </label><br>        
+        
+        <input type="checkbox" id="s11" name="s" value="54">
+        <label for="s11"> sinus pressure </label><br>
+         <input type="checkbox" id="s12" name="s" value="126">
+        <label for="s12"> skin peeling </label><br>
+        <input type="checkbox" id="s2" name="s" value="2">
+        <label for="s2"> skin rash </label><br>
+        <input type="checkbox" id="s3" name="s" value="78">
+        <label for="s3"> slurred speech </label><br>
+        <input type="checkbox" id="s4" name="s" value="128">
+        <label for="s4"> small dents in nails </label><br>
+        <input type="checkbox" id="s5" name="s" value="85">
+        <label for="s5"> spinning movements </label><br>
+        <input type="checkbox" id="s6" name="s" value="14">
+        <label for="s6"> spotting  urination </label><br>
+        <input type="checkbox" id="s7" name="s" value="82">
+        <label for="s7"> stiff neck </label><br>
+        <input type="checkbox" id="s8" name="s" value="115">
+        <label for="s8"> stomach bleeding </label><br>
+        <input type="checkbox" id="s9" name="s" value="8">
+        <label for="s9"> stomach pain </label><br>
+        <input type="checkbox" id="s10" name="s" value="27">
+        <label for="s10"> sunken eyes </label><br>
+        
+        <input type="checkbox" id="s11" name="s" value="29">
+        <label for="s11"> sweating </label><br>
+         <input type="checkbox" id="s12" name="s" value="48">
+        <label for="s12"> swelled lymph nodes </label><br>
+        <input type="checkbox" id="s2" name="s" value="83">
+        <label for="s2"> swelling joints </label><br>
+        <input type="checkbox" id="s3" name="s" value="47">
+        <label for="s3"> swelling of stomach </label><br>
+        <input type="checkbox" id="s4" name="s" value="70">
+        <label for="s4"> swollen blood vessels </label><br>
+        <input type="checkbox" id="s5" name="s" value="74">
+        <label for="s5"> swollen extremeties </label><br>
+        <input type="checkbox" id="s6" name="s" value="9">
+        <label for="s6"> swollen legs </label><br>
+        <input type="checkbox" id="s7" name="s" value="52">
+        <label for="s7"> throat irritation </label><br>
+        <input type="checkbox" id="s8" name="s" value="95">
+        <label for="s8"> toxic look (typhos) </label><br>
+        <input type="checkbox" id="s9" name="s" value="10">
+        <label for="s9"> ulcers on tongue </label><br>
+        <input type="checkbox" id="s10" name="s" value="87">
+        <label for="s10"> unsteadiness </label><br>
+        
+        <input type="checkbox" id="s11" name="s" value="111">
+        <label for="s11"> visual disturbances </label><br>
+         <input type="checkbox" id="s12" name="s" value="12">
+        <label for="s12"> vomiting </label><br>
+        <input type="checkbox" id="s2" name="s" value="104">
+        <label for="s2"> watering from eyes </label><br>
+        <input type="checkbox" id="s3" name="s" value="58">
+        <label for="s3"> weakness in limbs </label><br>
+        <input type="checkbox" id="s4" name="s" value="88">
+        <label for="s4"> weakness of one body side </label><br>
+        <input type="checkbox" id="s5" name="s" value="16">
+        <label for="s5"> weight gain </label><br>
+        <input type="checkbox" id="s6" name="s" value="20">
+        <label for="s6"> weight loss </label><br>
+        <input type="checkbox" id="s7" name="s" value="132">
+        <label for="s7"> yellow crust ooze </label><br>
+        <input type="checkbox" id="s8" name="s" value="43">
+        <label for="s8"> yellow urine </label><br>
+        <input type="checkbox" id="s9" name="s" value="44">
+        <label for="s9"> yellowing of eyes </label><br>
+        <input type="checkbox" id="s10" name="s" value="33">
+        <label for="s10"> yellowish skin </label><br>
+        
+        <input type="submit" value="Submit">
+
+      </form>
+    </div>
+{% endblock content %}
